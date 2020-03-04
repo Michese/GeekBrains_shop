@@ -159,11 +159,14 @@ a {
   font-size: 14px;
   font-weight: bold;
   color: #222222;
-  line-height: 26px;
+  line-height: 10px;
   text-transform: uppercase;
 }
 .menu__link:hover {
   color: #f16d7f;
+}
+.menu__active {
+  border-bottom: 3px solid #f16d7f;
 }
 
 .drop {

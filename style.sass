@@ -1,4 +1,5 @@
 @import "vars"
+@import "productPage"
 *
   margin: 0
   padding: 0
@@ -130,11 +131,12 @@ a
     font-size: 14px
     font-weight: bold
     color: #222222
-    line-height: 26px
+    line-height: 10px
     text-transform: uppercase
     &:hover
       color: $pink_color
-
+  &__active
+    border-bottom: 3px solid $pink_color
 .drop
   z-index: 1
   position: absolute
