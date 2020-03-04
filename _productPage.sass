@@ -1,0 +1,30 @@
+.subPage
+  display: flex
+  height: 148px
+  justify-content: space-between
+  align-items: center
+  background-color: rgba(248, 243, 244, 1)
+  &__name
+    font-size: 24px
+    font-weight: 900
+    color: rgba(241, 109, 127, 1)
+    text-transform: uppercase
+  &__ul
+    list-style: none
+    display: flex
+  &__list::after
+    font-weight: 300
+    color: rgba(99, 99, 99, 1)
+    content: " / "
+  &__list:last-of-type::after
+    content: none
+  &__list:last-of-type &__link
+    font-size: 14px
+    font-weight: bold
+    color: rgba(241, 109, 127, 1)
+  &__link
+    font-size: 14px
+    font-weight: 300
+    color: rgba(99, 99, 99, 1)
+    text-transform: uppercase
+    margin-left: 2px
