@@ -28,3 +28,101 @@
     color: rgba(99, 99, 99, 1)
     text-transform: uppercase
     margin-left: 2px
+.productMain
+  display: flex
+  margin-top: 70px
+  justify-content: space-between
+  &__right
+    width: 850px
+
+.productMenu
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  width: 243px
+  &__details
+    display: flex
+    justify-content: space-between
+    margin-bottom: 18px
+    &[open] summary
+      color: $pink_color
+    &[open] summary .triangle_active_up
+      display: block
+    &[closed] summary .triangle_active_up
+      display: none
+    &[open] summary .triangle_active_down
+      display: none
+    &[closed] summary .triangle_active_down
+      display: block
+  &__name
+    display: flex
+    justify-content: space-between
+    align-items: center
+    font-size: 14px
+    font-weight: bold
+    color: rgba(111, 110, 110, 1)
+    text-transform: uppercase
+    border-bottom: 1px solid rgba(235, 235, 235, 1)
+    border-left: 5px solid $pink_color
+    padding: 11px 6px 11px 11px
+    transition: color 0.2s
+  &__name::-webkit-details-marker
+    display: none
+  &__ul
+    list-style-type: none
+    margin-top: 14px
+  &__link
+    font-size: 14px
+    color: rgba(111, 110, 110, 1)
+    line-height: 33px
+    padding-left: 16px
+    &:hover
+      color: $pink_color
+
+.triangle_active_down .triangle_active_up
+  font-size: 14px
+  color: rgba(111, 110, 110, 1)
+  text-transform: uppercase
+.triangle_active_up
+  display: none
+.filterMenu
+  display: flex
+  justify-content: space-between
+  &__trending
+    width: 176px
+  &__h3
+  font-size: 14px
+  font-weight: bold
+  color: rgba(111, 110, 110, 1)
+  text-transform: uppercase
+  &__size
+    width: 236px
+  &__price
+    width: 263px
+.trending__content
+  margin-top: 20px
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+.trending__name
+  font-size: 14px
+  color: rgba(111, 110, 110, 1)
+  line-height: 26px
+.form__size
+  display: flex
+  flex-wrap: wrap
+  justify-content: flex-start
+  margin-top: 20px
+  align-items: center
+
+.checkbox_size
+  font-size: 14px
+  color: rgba(111, 110, 110, 1)
+  line-height: 20px
+  text-transform: uppercase
+  margin-right: 8px
+
+.label_size
+  margin-right: 20px
+  &:last-of-type
+    margin-right: 0
