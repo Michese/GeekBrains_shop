@@ -249,7 +249,7 @@
   color: white;
 }
 
-.productPage__benefit {
+.catalog__benefit {
   display: flex;
   justify-content: space-between;
   padding-bottom: 57px;
@@ -257,7 +257,7 @@
   background-color: #222224;
 }
 
-.productPage__benefit_block {
+.catalog__benefit_block {
   flex-direction: column;
   margin-top: 89px;
   width: 333px;
@@ -268,17 +268,17 @@
   align-items: center;
 }
 
-.productPage__benefit_article {
+.catalog__benefit_article {
   margin-top: 32px;
 }
 
-.productPage__benefit_h5 {
+.catalog__benefit_h5 {
   font-size: 20px;
   font-weight: bold;
   color: #fbfbfb;
 }
 
-.productPage__benefit_p {
+.catalog__benefit_p {
   font-size: 14px;
   font-weight: 300;
   color: #fbfbfb;
@@ -965,7 +965,7 @@ a {
   color: #f7f7f8;
 }
 
-.productPage__contents {
+.catalog__contents {
   padding-bottom: 0px;
 }
 
