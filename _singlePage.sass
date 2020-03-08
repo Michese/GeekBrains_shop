@@ -2,7 +2,161 @@
   display: flex
   justify-content: space-between
   align-content: center
+  align-items: center
   min-height: 777px
+  background-color: rgba(247, 247, 247, 1)
+  border: 1px solid rgba(234, 234, 234, 1)
 .SinglePage__promo_center
   display: flex
+  align-items: center
+.SinglePage__pagination
+  padding: 15px 20px
+  background-color: rgba(42, 42, 42, 0.15)
+  color: rgba(255, 255, 255, 1)
+  font-size: 24px
+  transition: background-color .2s linear
+  &:hover
+    background-color: $pink_color
+.singlePage__promo_image
+  z-index: 0
+.container
+  display: flex
   justify-content: center
+  border: 1px solid rgba(234, 234, 234, 1)
+  z-index: 999
+  position: relative
+  margin-top: -84px
+  background-color: #fff
+  padding-bottom: 120px
+.SinglePage__toCart
+  max-width: 625px
+  padding-top: 73px
+  display: flex
+  align-items: center
+  flex-direction: column
+.toCart__collection
+  font-size: 14px
+  font-weight: bold
+  color: $pink_color
+.red_line
+  background-color: $pink_color
+  width: 63px
+  height: 3px
+  margin-top: 14px
+.serif_line
+  width: 147px
+  height: 1px
+  background-color: rgba(234, 234, 234, 1)
+  margin-bottom: 17px
+.toCart__product_name
+  font-size: 18px
+  font-weight: 900
+  color: rgba(77, 77, 77, 1)
+  text-transform: uppercase
+.toCart__stars
+  display: none
+.toCart__product_description
+  text-align: center
+  margin-top: 65px
+  font-size: 14px
+  font-weight: 300
+  color: rgba(94, 94, 94, 1)
+  line-height: 24px
+.toCart__flex
+  display: flex
+  flex-wrap: wrap
+  margin-top: 21px
+  justify-content: space-around
+.material
+  font-size: 14px
+  font-weight: bold
+  color: rgba(185, 185, 185, 1)
+  margin-right: 44px
+  &:last-of-type
+    margin-right: 0
+.material__description
+  color: rgba(47, 47, 47, 1)
+.toCart__price
+  font-size: 24px
+  font-weight: bold
+  color: rgba(239, 91, 112, 1)
+  margin-top: 37px
+.fill__serif_line
+  height: 1px
+  width: 100%
+  background-color: rgba(234, 234, 234, 1)
+  margin-top: 43px
+  margin-bottom: 63px
+.toCart__box
+  width: 537px
+  display: flex
+  flex-direction: column
+.toCart__choose
+  display: flex
+  justify-content: space-between
+  width: 100%
+.toCart__select
+  margin-top: 16px
+  width: 120px
+  padding: 8px 9px 8px 14px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  border: 1px solid rgba(234, 234, 234, 1)
+  &:hover
+    cursor: pointer
+.select__half
+  display: inline-flex
+  align-items: center
+.red_block
+  height: 12px
+  width: 12px
+  margin-right: 11px
+  background-color: $pink_color
+.choose__select_p
+  font-size: 13px
+  line-height: 10px
+  color: rgba(188, 188, 188, 1)
+  border: none
+.toCart__input_quanity
+  width: 120px
+.toCart__button
+  display: inline-flex
+  justify-content: center
+  font-size: 16px
+  padding-top: 15px
+  padding-bottom: 15px
+  border: 1px solid $pink_color
+  font-weight: bold
+  color: $pink_color
+  margin-top: 28px
+  transition: color, background-color .2s linear
+  &:hover
+    color: #ffffff
+    background-color: $pink_color
+    box-shadow: 0 0 10px $pink_color
+.icon_cart
+  margin-right: 15px
+.also
+  margin-top: 120px
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-items: center
+  margin-bottom: 70px
+.also__name
+  font-size: 24px
+  font-weight: 900
+  color: rgba(77, 77, 77, 1)
+  text-transform: uppercase
+  margin-bottom: 50px
+.also__product_contents
+  display: flex
+  justify-content: space-between
+  width: 100%
+.also_image_product
+  height: 280px
+  align-items: flex-start
+  background-color: rgba(233, 233, 233, 1)
+.product_content:hover .also_image_product
+  background-color: rgba(102, 102, 102, 1)
