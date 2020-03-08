@@ -452,6 +452,18 @@ p.required_color_red {
   color: #f16d7f;
 }
 
+.SinglePage__promo {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  min-height: 777px;
+}
+
+.SinglePage__promo_center {
+  display: flex;
+  justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
