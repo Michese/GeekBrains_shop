@@ -10,31 +10,89 @@
   padding-top: 20px
   padding-bottom: 20px
   border-bottom: 1px solid rgba(234, 234, 234, 1)
+.shopingTable__name_first
+  flex-grow: 1
+  font-size: 13px
+  font-weight: bold
+  color: rgba(34, 34, 34, 1)
+  letter-spacing: -0.01em
+  text-transform: uppercase
 .shopingTable__name
   font-size: 13px
   font-weight: bold
   color: rgba(34, 34, 34, 1)
   letter-spacing: -0.01em
   text-transform: uppercase
-  flex: 1 1 auto
-.shopingTable__name_first
-  flex: 4 1 150px
-  font-size: 13px
-  font-weight: bold
-  color: rgba(34, 34, 34, 1)
-  letter-spacing: -0.01em
-  text-transform: uppercase
+  width: 12%
+  display: inline-flex
+  justify-content: center
 .shopingTable__content
   width: 100%
   display: flex
   align-items: center
   padding-top: 22px
   padding-bottom: 25px
+  border-bottom: 1px solid rgba(234, 234, 234, 1)
 .shopingTable__cell_first
-  flex: 4 1 150px
-  //display: flex
-
+  flex-grow: 1
+  display: flex
+  justify-content: flex-start
+.shopingTable__image
+  width: 100px
+.shopingTable__product_description
+  display: flex
+  flex-direction: column
+  margin-left: 21px
+.shopingTable__product_description_h6
+  margin-top: 13px
+  font-size: 13px
+  color: rgba(34, 34, 34, 1)
+  text-transform: uppercase
+.shopingTable__product_description_short
+  margin-top: 30px
+.shopingTable__product_description_short
+  font-size: 13px
+  color: rgba(87, 87, 87, 1)
+  line-height: 20px
+  font-weight: 600
+.color_serif
+  font-weight: 300
+  color: rgba(111, 110, 110, 1)
 .shopingTable__cell_p
-  flex: 1 2 auto
+  display: inline-flex
+  justify-content: center
+  width: 12%
   font-size: 13px
   color: rgba(101, 101, 101, 1)
+.shopingTable_textBox_div
+  width: 12%
+  display: flex
+  justify-content: center
+  align-items: center
+.shopingTable_textBox
+  padding: 0 20px
+  padding-left: 25px
+i.shopingTable__cell_p:hover
+  color: $pink_color
+.shopingTable__buttons
+  margin-top: 44px
+  display: flex
+  justify-content: space-between
+.shopingTable__button
+  padding: 17px 38px
+  font-size: 14px
+  font-weight: bold
+  color: rgba(74, 74, 74, 1)
+  text-transform: uppercase
+  background-color: rgba(255, 255, 255, 1)
+  border: 1px solid rgba(234, 234, 234, 1)
+  //transition-property: color, background-color, border
+  //transition-duration: .2s
+  //transition-timing-function: linear
+  transition: color .2s linear , background-color .2s linear, border .2s linear
+  &:hover
+    background-color: $pink_color
+    border: 1px solid $pink_color
+    color: rgba(255, 255, 255, 1)
+    box-shadow: 0 0 10px $pink_color
+
