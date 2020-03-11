@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <title>Shoping Cart</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9147614acd.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
 <header class="header center">
     <div class="header__left">
-        <a href="" class="logo">
+        <a href="index.html" class="logo">
             <img class="logo__img" src="img/logo.png" alt="logo">
             BRAN <span class="logo_pink">D</span>
         </a>
@@ -45,7 +43,8 @@
                             <li><a href="#" class="drop_link">Jackets/vests</a></li>
                         </ul>
                     </div>
-                  <summary class="header__summary">Browse</summary>
+                    <summary class="header__summary">Browse</summary>
+
                 </details>
                 <input type="text" class="header_text_input" placeholder="Search for Item...">
                 <a href="#" class="header_search_button"><i class="fas fa-search search_icon"></i></a>
@@ -61,7 +60,7 @@
 </header>
 <div class="nav center">
     <ul class="menu">
-        <li class="menu__list"><a class="menu__link menu__active" href="#">Home</a>
+        <li class="menu__list"><a class="menu__link" href="index.html">Home</a>
             <div class="drop">
                 <div class="drop_flex">
                     <h3 class="drop_h3">women</h3>
@@ -106,7 +105,7 @@
                 </div>
             </div>
         </li>
-        <li class="menu__list"><a class="menu__link" href="catalog.html">Man</a>
+        <li class="menu__list"><a class="menu__link menu__active" href="#">Man</a>
             <div class="drop">
                 <div class="drop_flex">
                     <h3 class="drop_h3">women</h3>
@@ -378,312 +377,31 @@
         </li>
     </ul>
 </div>
-<div class="promo center">
-    <div class="promo_content">
-        <h1 class="promo__h1">THE BRAND</h1>
-        <h2 class="promo__h2">OF LUXERIOUS <span class="pink">FASHION</span></h2>
-    </div>
+<div class="subPage center">
+    <h1 class="subPage__name">New Arrivals</h1>
+    <ul class="subPage__ul">
+        <li class="subPage__list"><a href="index.html" class="subPage__link">Home</a></li>
+        <li class="subPage__list"><a href="#" class="subPage__link">Men</a></li>
+        <li class="subPage__list"><a href="#" class="subPage__link">New Arrivals</a></li>
+    </ul>
 </div>
-<div class="sale center">
-    <div class="sale_left_box">
-        <div class="big_sale_box men">
-            <div class="sale_content">
-                <p class="sale_p">hot deal</p>
-                <h3 class="sale_h3">for men</h3>
-            </div>
-        </div>
-        <div class="small_sale_box acces">
-            <div class="sale_content">
-                <p class="sale_p">LUXIROUS & trendy</p>
-                <h3 class="sale_h3">ACCESORIES</h3>
-            </div>
-        </div>
+<main class="shopingTable center">
+    <header class="shopingTable__header">
+        <h4 class="shopingTable__name_first">Product Details</h4>
+        <h4 class="shopingTable__name">unite Price</h4>
+        <h4 class="shopingTable__name">Quantity</h4>
+        <h4 class="shopingTable__name">shipping</h4>
+        <h4 class="shopingTable__name">Subtotal</h4>
+        <h4 class="shopingTable__name">ACTION</h4>
+    </header>
+    <div class="shopingTable__content">
+        <p class="shopingTable__cell_first">fcsdzafca</p>
+        <p class="shopingTable__cell_p">$150</p>
+        <p class="shopingTable__cell_p">2</p>
+        <p class="shopingTable__cell_p">free</p>
+        <p class="shopingTable__cell_p">$300</p>
+        <p class="shopingTable__cell_p">0</p>
     </div>
-    <div class="sale_right_box">
-        <div class="small_sale_box women">
-            <div class="sale_content">
-                <p class="sale_p">hot deal</p>
-                <h3 class="sale_h3">for men</h3>
-            </div>
-        </div>
-        <div class="big_sale_box kid">
-            <div class="sale_content">
-                <p class="sale_p">LUXIROUS & trendy</p>
-                <h3 class="sale_h3">ACCESORIES</h3>
-            </div>
-        </div>
-    </div>
-</div>
-<section class="center">
-    <h4 class="featured_items_h4">Fetured Items</h4>
-    <p class="featured_items_p">Shop for items based on what we featured in this week</p>
-</section>
-<div class="product_contents center">
-    <div class="product_content">
-        <div class="image_product">
-            <a href="singlePage.html">
-                <img src="img/product1.jpg" alt="">
-            </a>
-            <a href="shopingCart.html" class="image_content">
-                <i class="fas fa-cart-plus product_cart"></i>
-                Add to Cart
-            </a>
-        </div>
-        <a href="singlePage.html">
-            <h6 class="product_content_h6">Mango People T-shirt</h6>
-            <p class="product_content_price">$52.00</p>
-        </a>
-    </div>
-    <div class="product_content">
-        <div class="image_product">
-            <a href="singlePage.html">
-                <img src="img/product2.jpg" alt="">
-            </a>
-            <a href="shopingCart.html" class="image_content">
-                <i class="fas fa-cart-plus product_cart"></i>
-                Add to Cart
-            </a>
-        </div>
-        <a href="singlePage.html">
-            <h6 class="product_content_h6">Mango People T-shirt</h6>
-            <p class="product_content_price">$52.00</p>
-        </a>
-    </div>
-    <div class="product_content">
-        <div class="image_product">
-            <a href="singlePage.html">
-                <img src="img/product3.jpg" alt="">
-            </a>
-            <a href="shopingCart.html" class="image_content">
-                <i class="fas fa-cart-plus product_cart"></i>
-                Add to Cart
-            </a>
-        </div>
-        <a href="singlePage.html">
-            <h6 class="product_content_h6">Mango People T-shirt</h6>
-            <p class="product_content_price">$52.00</p>
-        </a>
-    </div>
-    <div class="product_content">
-
-        <div class="image_product">
-            <a href="singlePage.html">
-                <img src="img/product4.jpg" alt="">
-            </a>
-            <a href="shopingCart.html" class="image_content">
-                <i class="fas fa-cart-plus product_cart"></i>
-                Add to Cart
-            </a>
-        </div>
-
-        <a href="singlePage.html">
-            <h6 class="product_content_h6">Mango People T-shirt</h6>
-            <p class="product_content_price">$52.00</p>
-        </a>
-    </div>
-    <div class="product_content">
-
-        <div class="image_product">
-            <a href="singlePage.html">
-                <img src="img/product5.jpg" alt="">
-            </a>
-            <a href="shopingCart.html" class="image_content">
-                <i class="fas fa-cart-plus product_cart"></i>
-                Add to Cart
-            </a>
-        </div>
-
-        <a href="singlePage.html">
-            <h6 class="product_content_h6">Mango People T-shirt</h6>
-            <p class="product_content_price">$52.00</p>
-        </a>
-    </div>
-    <div class="product_content">
-
-        <div class="image_product">
-            <a href="singlePage.html">
-                <img src="img/product6.jpg" alt="">
-            </a>
-            <a href="shopingCart.html" class="image_content">
-                <i class="fas fa-cart-plus product_cart"></i>
-                Add to Cart
-            </a>
-        </div>
-
-        <a href="singlePage.html">
-            <h6 class="product_content_h6">Mango People T-shirt</h6>
-            <p class="product_content_price">$52.00</p>
-        </a>
-    </div>
-    <div class="product_content">
-        <div class="image_product">
-            <a href="singlePage.html">
-                <img src="img/product7.jpg" alt="">
-            </a>
-            <a href="shopingCart.html" class="image_content">
-                <i class="fas fa-cart-plus product_cart"></i>
-                Add to Cart
-            </a>
-        </div>
-        <a href="singlePage.html">
-            <h6 class="product_content_h6">Mango People T-shirt</h6>
-            <p class="product_content_price">$52.00</p>
-        </a>
-    </div>
-    <div class="product_content">
-
-        <div class="image_product">
-            <a href="singlePage.html">
-                <img src="img/product8.jpg" alt="">
-            </a>
-            <a href="shopingCart.html" class="image_content">
-                <i class="fas fa-cart-plus product_cart"></i>
-                Add to Cart
-            </a>
-        </div>
-
-        <a href="singlePage.html">
-            <h6 class="product_content_h6">Mango People T-shirt</h6>
-            <p class="product_content_price">$52.00</p>
-        </a>
-    </div>
-
-</div>
-<div class="center" style="text-align: center;">
-    <a href="#" class="button"> Browse All Product <i class="fas fa-caret-down triangle_down"></i></a>
-</div>
-<div class="benefit center">
-    <div class="benefit_left_box">
-        <div class="benefit_left_content">
-            <h2 class="benefit_left_content_h2">30% <span class="pink">OFFER</span></h2>
-            <p class="benefit_left_content_p">FOR WOMEN</p>
-        </div>
-
-    </div>
-    <div class="benefit_right_box">
-        <div class="benefit_block">
-            <img src="img/free_delivery.png" alt="FreeDelivery">
-            <article class="benefit_description">
-                <h5 class="benefit_description_name">Free Delivery</h5>
-                <p class="benefit_description_content">
-                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                    models.
-                </p>
-            </article>
-        </div>
-        <div class="benefit_block">
-            <img src="img/sales.png" alt="Sales">
-            <article class="benefit_description">
-                <h5 class="benefit_description_name">Sales & discounts</h5>
-                <p class="benefit_description_content">
-                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                    models.
-                </p>
-            </article>
-        </div>
-        <div class="benefit_block">
-            <img src="img/quality.png" alt="Quality">
-            <article class="benefit_description">
-                <h5 class="benefit_description_name">Quality assurance</h5>
-                <p class="benefit_description_content">
-                    Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                    models.
-                </p>
-            </article>
-        </div>
-    </div>
-</div>
-<div class="subscribe  center">
-    <figure class="subscribe_left">
-        <img src="img/author_image.png" alt="" class="subscribe_image_author">
-        <div class="quote_content">
-            <p class="quote_content_p">
-                &laquo;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi,
-                a&nbsp;pulvinar purus
-                condimentum&nbsp;a. Aliquam condimentum mattis neque sed pretium&raquo;</p>
-            <div class="quote_content_author">
-                <p class="author_name">Bin Burhan</p>
-                <p class="author_location">Dhaka, Bd</p>
-            </div>
-        </div>
-        <div class="subscribe__pagination">
-            <!-- JavaScript -->
-        </div>
-    </figure>
-    <div class="subscribe_right">
-        <section class="subscribe_right_section">
-            <h4 class="subscribe_right_content_h4">Subscribe</h4>
-            <p class="subscribe_right_content_p">FOR OUR NEWLETTER AND PROMOTION</p>
-            <div class="subscribe_textBox_div"><input type="text" class="subscribe_textBox_input" name="" id=""
-                                                      placeholder="Enter Your Email">
-                <a href="#" class="subscribe_textBox_button">Subscribe</a>
-            </div>
-        </section>
-    </div>
-</div>
-<footer class="footer">
-    <div class="footer_information_company center">
-        <div class="footer_description_company">
-            <a href="" class="logo">
-                <img class="logo__img" src="img/logo.png" alt="logo">
-                BRAN <span class="logo_pink">D</span>
-            </a>
-            <p class="footer_description_company_p">
-                Objectively transition extensive data rather than cross functional
-                solutions. Monotonectally syndicate multidisciplinary materials before go&nbsp;forward benefits.
-                Intrinsicly
-                syndicate an&nbsp;expanded array of&nbsp;processes and cross-unit partnerships.
-            </p>
-            <p class="footer_description_company_p">
-                Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior
-                initiatives for wireless technologies. Dynamically optimize.
-                <!-- Objectively strategize seamless relationships via resource sucking testing procedures. Proactively cultivate next-generation results for value-added methodologies. Dynamically plagiarize unique methodologies after performance based methodologies. Monotonectally empower stand-alone mindshare rather than ubiquitous opportunities. Dynamically orchestrate resource sucking scenarios after alternative synergy. Compellingly envisioneer corporate methods of empowerment before standards compliant technologies. Objectively facilitate progressive. -->
-            </p>
-        </div>
-        <div class="footer_list_company">
-            <h6 class="footer_list_company_h6">COMPANY</h6>
-            <ul class="footer_list_company_ul">
-                <li class="footer_list_company_li"><a href="#" class="footer_list_company_a">Home</a></li>
-                <li class="footer_list_company_li"><a href="#" class="footer_list_company_a">Shop</a></li>
-                <li class="footer_list_company_li"><a href="#" class="footer_list_company_a">About</a></li>
-                <li class="footer_list_company_li"><a href="#" class="footer_list_company_a">How It Works</a></li>
-                <li class="footer_list_company_li"><a href="#" class="footer_list_company_a">Contact</a></li>
-            </ul>
-        </div>
-        <div class="footer_list_company">
-            <h6 class="footer_list_company_h6">INFORMATION</h6>
-            <ul class="footer_list_company_ul">
-                <li class="footer_list_company_li"><a href="#" class="footer_list_company_a">Tearms & Condition</a>
-                </li>
-                <li class="footer_list_company_li"><a href="#" class="footer_list_company_a">Privacy Policy</a></li>
-                <li class="footer_list_company_li"><a href="#" class="footer_list_company_a">How to Buy</a></li>
-                <li class="footer_list_company_li"><a href="#" class="footer_list_company_a">How to Sell</a></li>
-                <li class="footer_list_company_li"><a href="#" class="footer_list_company_a">Promotion</a></li>
-            </ul>
-        </div>
-        <div class="footer_list_company">
-            <h6 class="footer_list_company_h6">SHOP CATEGORY</h6>
-            <ul class="footer_list_company_ul">
-                <li class="footer_list_company_li"><a href="catalog.html" class="footer_list_company_a">Men</a></li>
-                <li class="footer_list_company_li"><a href="catalog.html" class="footer_list_company_a">Women</a></li>
-                <li class="footer_list_company_li"><a href="catalog.html" class="footer_list_company_a"> Child </a></li>
-                <li class="footer_list_company_li"><a href="catalog.html" class="footer_list_company_a">Apparel </a></li>
-                <li class="footer_list_company_li"><a href="catalog.html" class="footer_list_company_a">Brows All</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="copyright center">
-        <p>&copy;&nbsp;2020 Brand All Rights Reserved.</p>
-        <div class="network">
-            <a href="#" class="network_icon_a"><i class="fab fa-facebook-f network_icon_i"></i></a>
-            <a href="#" class="network_icon_a"><i class="fab fa-twitter network_icon_i"></i></a>
-            <a href="#" class="network_icon_a"><i class="fab fa-linkedin-in network_icon_i"></i></a>
-            <a href="#" class="network_icon_a"><i class="fab fa-pinterest-p network_icon_i"></i></a>
-            <a href="#" class="network_icon_a"><i class="fab fa-google-plus-g network_icon_i"></i></a>
-        </div>
-    </div>
-</footer>
+</main>
 </body>
-
 </html>
