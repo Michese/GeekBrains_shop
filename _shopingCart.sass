@@ -1,0 +1,170 @@
+.shopingMain
+  display: flex
+  flex-direction: column
+.shopingTable__header
+  display: flex
+  align-items: center
+  justify-content: flex-start
+  width: 100%
+  margin-top: 70px
+  padding-top: 20px
+  padding-bottom: 20px
+  border-bottom: 1px solid rgba(234, 234, 234, 1)
+.shopingTable__name_first
+  flex-grow: 1
+  font-size: 13px
+  font-weight: bold
+  color: rgba(34, 34, 34, 1)
+  letter-spacing: -0.01em
+  text-transform: uppercase
+.shopingTable__name
+  font-size: 13px
+  font-weight: bold
+  color: rgba(34, 34, 34, 1)
+  letter-spacing: -0.01em
+  text-transform: uppercase
+  width: 12%
+  display: inline-flex
+  justify-content: center
+.shopingTable__content
+  width: 100%
+  display: flex
+  align-items: center
+  padding-top: 22px
+  padding-bottom: 25px
+  border-bottom: 1px solid rgba(234, 234, 234, 1)
+.shopingTable__cell_first
+  flex-grow: 1
+  display: flex
+  justify-content: flex-start
+.shopingTable__image
+  width: 100px
+.shopingTable__product_description
+  display: flex
+  flex-direction: column
+  margin-left: 21px
+.shopingTable__product_description_h6
+  margin-top: 13px
+  font-size: 13px
+  color: rgba(34, 34, 34, 1)
+  text-transform: uppercase
+.shopingTable__product_description_short
+  margin-top: 30px
+.shopingTable__product_description_short
+  font-size: 13px
+  color: rgba(87, 87, 87, 1)
+  line-height: 20px
+  font-weight: 600
+.color_serif
+  font-weight: 300
+  color: rgba(111, 110, 110, 1)
+.shopingTable__cell_p
+  display: inline-flex
+  justify-content: center
+  width: 12%
+  font-size: 13px
+  color: rgba(101, 101, 101, 1)
+.shopingTable_textBox_div
+  width: 12%
+  display: flex
+  justify-content: center
+  align-items: center
+.shopingTable_textBox
+  padding: 0 20px
+  padding-left: 25px
+i.shopingTable__cell_p:hover
+  color: $pink_color
+.shopingTable__buttons
+  margin-top: 44px
+  display: flex
+  justify-content: space-between
+.shopingTable__button
+  padding: 17px 38px
+  font-size: 14px
+  font-weight: bold
+  color: rgba(74, 74, 74, 1)
+  text-transform: uppercase
+  background-color: rgba(255, 255, 255, 1)
+  border: 1px solid rgba(234, 234, 234, 1)
+  //transition-property: color, background-color, border
+  //transition-duration: .2s
+  //transition-timing-function: linear
+  transition: color .2s linear , background-color .2s linear, border .2s linear
+  &:hover
+    background-color: $pink_color
+    border: 1px solid $pink_color
+    color: rgba(255, 255, 255, 1)
+    box-shadow: 0 0 10px $pink_color
+.shopingAdress
+  margin-top: 50px
+  padding-bottom: 79px
+  display: flex
+  justify-content: space-between
+.shopingAdress__box
+  width: 355px
+  margin-right: 20px
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+.shopingAdress__box_last
+  display: flex
+  flex-direction: column
+  align-items: flex-end
+  justify-content: flex-start
+  width: 280px
+  height: fit-content
+  padding: 40px 43px
+  background-color: rgba(245, 243, 243, 1)
+.shopingAdress__box_name
+  padding-top: 15px
+  margin-bottom: 22px
+  font-size: 16px
+  font-weight: bold
+  color: rgba(34, 34, 34, 1)
+  text-transform: uppercase
+.shopingAdress__select
+  font-size: 13px
+  font-weight: 300
+  color: rgba(177, 177, 177, 1)
+  background-color: rgba(255, 255, 255, 1)
+  border: 1px solid rgba(234, 234, 234, 1)
+  padding: 14px 12px 14px 18px
+  width: 100%
+.shopingAdress__textBox
+  display: inline-flex
+  font-size: 13px
+  font-weight: 300
+  color: rgba(177, 177, 177, 1)
+  width: calc(100% - 38px)
+  padding: 16px 17px
+  margin-top: 20px
+  background-color: rgba(255, 255, 255, 1)
+  border: 1px solid rgba(234, 234, 234, 1)
+.shopingAdress__button
+  margin-top: 23px
+  font-size: 11px
+  font-weight: bold
+  color: rgba(74, 74, 74, 1)
+  text-transform: uppercase
+  padding: 12px 14px
+  background-color: rgba(255, 255, 255, 1)
+  border: 1px solid rgba(234, 234, 234, 1)
+  transition: color .2s linear, background-color .2s linear, border .2s linear
+  &:hover
+    background-color: $pink_color
+    border: 1px solid $pink_color
+    color: rgba(255, 255, 255, 1)
+    box-shadow: 0 0 10px $pink_color
+.shopingAdress__box_p
+  font-size: 14px
+  font-weight: 300
+  color: rgba(0, 0, 0, 1)
+.fill_line_serif_dark
+  width: 100%
+  height: 1px
+  background-color: rgba(226, 226, 226, 1)
+  margin-bottom: 17px
+.shopingAdress__box_button_checkout
+  width: -webkit-fill-available
+  text-align: center
+  text-transform: uppercase
